@@ -1,0 +1,21 @@
+___________LINKS____________
+link='http://www.cyberforum.ru/',  text='<img'
+link='/blogs/',  text='�����'
+link='/login.php?do=lostpw',  text='������������'
+link='/register.php',  text='�����������</a></td>'
+link='/register.php',  text='�����������</a></td>'
+link='http://www.cyberforum.ru/java-j2se/thread356157.html#krtests',  text='�����</a>'
+link='/blogs/',  text='�����</a><script'
+link='/groups/',  text='����������'
+link='/java-j2se/thread440863.html',  text='Java'
+link='/java-j2se/thread537301.html',  text='Java'
+link='/java-j2se/thread627960.html',  text='Java'
+link='/java-j2se/thread843794.html',  text='Java'
+link='/java-j2se/thread866327.html',  text='Java'
+link='/java-j2se/thread1026736.html',  text='Java'
+link='/java-j2se/thread1232206.html',  text='Java'
+link='/java-j2se/thread1260082.html',  text='Java'
+link='/blogs/196823/',  text='18</a></div>'
+link='/register.php',  text='�����������</a>'
+___________TELEPHONE____________
+___________EMAILS____________
