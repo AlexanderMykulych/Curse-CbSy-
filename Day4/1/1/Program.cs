@@ -9,9 +9,10 @@ using System.Threading.Tasks;
 
 namespace _1 {
     class Program {
-        static Regex _hrefRegex = new Regex(@"href=['""](?<link>\S+)['""]>(?<text>\S*)");
+        static Regex _hrefRegex = new Regex(@"href=['""](?<link>\S+)['""]\S*\s*\S*>(?<text>\S*)");
         static Regex _telRegex = new Regex(@"(?<tel>\+\d{12})");
         static Regex _emailRegex = new Regex(@"(?<mail>\S+@\S{2,10}\.\S{2,5})");
+        static Regex _siteSlesh = new Regex(@"[:/]+");
         static void Main(string[] args) {
             var sites = new List<string>();
             using (var inputFile = new StreamReader("input.txt")) {
@@ -25,7 +26,8 @@ namespace _1 {
                 using(var reqStream = new StreamReader(request.GetResponseStream(), Encoding.UTF8)){
                     text = reqStream.ReadToEnd();
                 }
-                using (var file = new StreamWriter(string.Format("{0}.out.txt", site.Substring(7, 10)))) {
+                var fileName = string.Format("{0}.out.txt", _siteSlesh.Replace(site, x => "."));
+                using (var file = new StreamWriter(fileName)) {
                     file.WriteLine(@"___________LINKS____________");
                     foreach (Match match in _hrefRegex.Matches(text)) {
                         file.WriteLine("link='{0}',  text='{1}'", match.Groups["link"], match.Groups["text"]);
@@ -40,7 +42,6 @@ namespace _1 {
                     }
                 }
             }
-            
             Console.ReadKey();
         }
     }

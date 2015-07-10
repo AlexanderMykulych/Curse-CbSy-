@@ -1,0 +1,8 @@
+___________LINKS____________
+link='/tpl/css/style.css',  text=''
+link='/',  text='<img'
+link='index.php?act_id=lost_password',  text='<input'
+link='http://icc.univ.kiev.ua',  text='<img'
+link='http://hh.ua/resume/f0d4c510ff009c553e0039ed1f736563726574',  text=''
+___________TELEPHONE____________
+___________EMAILS____________
