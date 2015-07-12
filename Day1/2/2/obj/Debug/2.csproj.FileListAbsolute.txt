@@ -1,0 +1,6 @@
+E:\AllProject\Curse\Curse-CbSy-\Day1\2\2\bin\Debug\2.exe.config
+E:\AllProject\Curse\Curse-CbSy-\Day1\2\2\bin\Debug\2.exe
+E:\AllProject\Curse\Curse-CbSy-\Day1\2\2\bin\Debug\2.pdb
+E:\AllProject\Curse\Curse-CbSy-\Day1\2\2\obj\Debug\2.csprojResolveAssemblyReference.cache
+E:\AllProject\Curse\Curse-CbSy-\Day1\2\2\obj\Debug\2.exe
+E:\AllProject\Curse\Curse-CbSy-\Day1\2\2\obj\Debug\2.pdb
